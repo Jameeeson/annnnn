@@ -1,0 +1,16 @@
+﻿.next/types/validator.ts(81,31): error TS2344: Type 'typeof import("C:/Users/maki/Documents/chuka/src/app/api/memories/[id]/route")' does not satisfy the constraint 'RouteHandlerConfig<"/api/memories/[id]">'.
+  Types of property 'PUT' are incompatible.
+    Type '(request: Request, context: { params: { id: string; }; }) => Promise<NextResponse<{ success: boolean; error: string; }> | NextResponse<{ success: boolean; data: any; }>>' is not assignable to type '(request: NextRequest, context: { params: Promise<{ id: string; }>; }) => void | Response | Promise<void | Response>'.
+      Types of parameters 'context' and 'context' are incompatible.
+        Type '{ params: Promise<{ id: string; }>; }' is not assignable to type '{ params: { id: string; }; }'.
+          Types of property 'params' are incompatible.
+            Property 'id' is missing in type 'Promise<{ id: string; }>' but required in type '{ id: string; }'.
+src/app/page.tsx(135,13): error TS2304: Cannot find name 'Heart'.
+src/app/slideshow/page.tsx(155,25): error TS2304: Cannot find name 'ArrowLeft'.
+src/components/ui/Button.tsx(16,8): error TS2322: Type '{ key?: Key | null | undefined; id?: string | undefined; values?: { [key: string]: MotionValue<number> | MotionValue<string>; } | undefined; type?: "button" | ... 2 more ... | undefined; ... 345 more ...; className: string; }' is not assignable to type 'Omit<HTMLMotionProps<"button">, "ref">'.
+  Types of property 'onAnimationStart' are incompatible.
+    Type 'AnimationEventHandler<HTMLButtonElement> | undefined' is not assignable to type '((definition: AnimationDefinition) => void) | undefined'.
+      Type 'AnimationEventHandler<HTMLButtonElement>' is not assignable to type '(definition: AnimationDefinition) => void'.
+        Types of parameters 'event' and 'definition' are incompatible.
+          Type 'AnimationDefinition' is not assignable to type 'AnimationEvent<HTMLButtonElement>'.
+            Type 'string' is not assignable to type 'AnimationEvent<HTMLButtonElement>'.

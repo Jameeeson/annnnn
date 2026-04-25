@@ -1,0 +1,1 @@
+[{"name":"ac-koq65tt-shard-00-00.4fkiuqj.mongodb.net","port":27017,"priority":0,"weight":0,"type":"SRV"},{"name":"ac-koq65tt-shard-00-02.4fkiuqj.mongodb.net","port":27017,"priority":0,"weight":0,"type":"SRV"},{"name":"ac-koq65tt-shard-00-01.4fkiuqj.mongodb.net","port":27017,"priority":0,"weight":0,"type":"SRV"}]
